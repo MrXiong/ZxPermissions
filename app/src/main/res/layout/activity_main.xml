@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zx.permissions.MainActivity">
+
+    <Button
+        android:onClick="calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android.permission-group.CALENDAR" />
+    <Button
+        android:onClick="camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android.permission-group.CAMERA" />
+    <Button
+        android:onClick="contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android.permission-group.CONTACTS" />
+    <Button
+        android:onClick="location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android.permission-group.LOCATION" />
+    <Button
+        android:onClick="microphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android.permission-group.MICROPHONE" />
+    <Button
+        android:onClick="phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android.permission-group.PHONE" />
+    <Button
+        android:onClick="sensors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android.permission-group.SENSORS" />
+    <Button
+        android:onClick="sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android.permission-group.SMS" />
+    <Button
+        android:onClick="storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android.permission-group.STORAGE" />
+</LinearLayout>
+</ScrollView>
